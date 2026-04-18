@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Thar Dream Architects | Modern Architecture & Design</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="preloader">
+  <div class="preloader-content">
+    <div class="arch-spinner"></div>
+    <h3>Thar Dream Architects</h3>
+    <p>Designing Dreams into Reality</p>
+  </div>
+</div>
+
+<nav id="navbar" class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <i class="fas fa-drafting-compass"></i>
+      <span>Thar Dream Architects</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link">Home</a></li>
+      <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#lead" class="nav-link">Get Design</a></li>
+      <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a href="#lead" class="consult-btn">Book Consultation</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1 class="hero-title fade-up">Designing <span class="gold">Dreams</span> into Reality</h1>
+    <p class="hero-subtitle fade-up delay-1">Premium architecture, 3D elevations & modern house planning in Hyderabad</p>
+    <div class="hero-btns fade-up delay-2">
+      <a href="#portfolio" class="btn-primary">View Our Designs <i class="fas fa-arrow-right"></i></a>
+      <a href="#lead" class="btn-outline">Get Your Dream Plan <i class="fas fa-pen-ruler"></i></a>
+    </div>
+    <div class="hero-stats fade-up delay-3">
+      <div class="stat"><span class="counter" data-target="128">0</span><p>Projects Completed</p></div>
+      <div class="stat"><span class="counter" data-target="96">0</span><p>Happy Clients</p></div>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Scroll</span><i class="fas fa-chevron-down"></i></div>
+</section>
+
+<section id="portfolio" class="portfolio section-padding">
+  <div class="container">
+    <div class="section-header fade-up">
+      <h2>Our <span class="gold">Architectural Portfolio</span></h2>
+      <p>Inspiring modern designs | 2D Plans | 3D Elevations</p>
+    </div>
+    <div class="filter-buttons fade-up delay-1">
+      <button class="filter-btn active" data-filter="all">All Projects</button>
+      <button class="filter-btn" data-filter="Modern Houses">Modern Houses</button>
+      <button class="filter-btn" data-filter="Luxury Villas">Luxury Villas</button>
+      <button class="filter-btn" data-filter="2D Plans">2D Plans</button>
+      <button class="filter-btn" data-filter="3D Elevations">3D Elevations</button>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid"></div>
+  </div>
+</section>
+
+<section class="design-showcase section-padding">
+  <div class="container">
+    <div class="section-header fade-up">
+      <h2>2D to 3D <span class="gold">Transformation</span></h2>
+      <p>See how concepts become reality</p>
+    </div>
+    <div class="compare-container fade-up">
+      <div class="compare-image">
+        <img src="https://images.pexels.com/photos/2587054/pexels-photo-2587054.jpeg?auto=compress&w=800" alt="2D Plan" id="beforeImage">
+        <div class="compare-overlay" id="compareOverlay">
+          <img src="https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&w=800" alt="3D Elevation" id="afterImage">
+        </div>
+        <div class="compare-slider" id="compareSlider">
+          <i class="fas fa-arrows-alt-h"></i>
+        </div>
+      </div>
+      <p class="showcase-caption">Drag slider → see 2D Floor Plan transform into 3D Elevation</p>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="services section-padding">
+  <div class="container">
+    <div class="section-header fade-up">
+      <h2>Our <span class="gold">Premium Services</span></h2>
+      <p>Complete architectural solutions from concept to construction</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-up"><i class="fas fa-draw-polygon"></i><h3>House Planning</h3><p>2D layouts, space optimization & zoning</p></div>
+      <div class="service-card fade-up delay-1"><i class="fas fa-cube"></i><h3>3D Elevation Design</h3><p>Photorealistic exterior & interior renders</p></div>
+      <div class="service-card fade-up delay-2"><i class="fas fa-couch"></i><h3>Interior Concepts</h3><p>Modern aesthetics, material palettes</p></div>
+      <div class="service-card fade-up delay-3"><i class="fas fa-tools"></i><h3>Renovation Planning</h3><p>Revamp existing structures, extensions</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="lead" class="lead-section section-padding">
+  <div class="container">
+    <div class="lead-wrapper">
+      <div class="lead-info fade-right">
+        <h3>Get Your <span class="gold">Dream House</span> Designed</h3>
+        <p>Share your requirements and our architects will create a personalized plan.</p>
+        <div class="features-list">
+          <li><i class="fas fa-check-circle"></i> Customized 2D/3D Plans</li>
+          <li><i class="fas fa-check-circle"></i> Expert Consultation</li>
+          <li><i class="fas fa-check-circle"></i> Fast Turnaround</li>
+        </div>
+        <a href="#" class="sample-download" id="downloadSample"><i class="fas fa-download"></i> Download Sample Design (PDF)</a>
+      </div>
+      <div class="lead-form fade-left">
+        <h4>Request a Design Quote</h4>
+        <form id="designForm">
+          <input type="text" id="name" placeholder="Full Name" required>
+          <input type="tel" id="phone" placeholder="Phone Number" required>
+          <input type="text" id="plotSize" placeholder="Plot Size (e.g., 45x50 yards / sq.ft)">
+          <input type="text" id="city" placeholder="City" value="Hyderabad" required>
+          <textarea id="requirements" rows="3" placeholder="Describe your dream home / requirements..." required></textarea>
+          <button type="submit" class="btn-primary whatsapp-btn"><i class="fab fa-whatsapp"></i> Send via WhatsApp</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="why-choose section-padding">
+  <div class="container">
+    <div class="section-header fade-up">
+      <h2>Why Choose <span class="gold">Thar Dream Architects</span></h2>
+      <p>Excellence in every blueprint</p>
+    </div>
+    <div class="trust-grid">
+      <div class="trust-card fade-up"><i class="fas fa-ruler-combined"></i><h4>Modern Design Expertise</h4><p>Contemporary & timeless architecture</p></div>
+      <div class="trust-card fade-up delay-1"><i class="fas fa-smile"></i><h4>100% Client Satisfaction</h4><p>Recommended by 96+ homeowners</p></div>
+      <div class="trust-card fade-up delay-2"><i class="fas fa-wallet"></i><h4>Affordable Planning</h4><p>Budget-friendly yet premium designs</p></div>
+      <div class="trust-card fade-up delay-3"><i class="fas fa-users"></i><h4>Experienced Designers</h4><p>10+ years of architectural excellence</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="testimonials section-padding">
+  <div class="container">
+    <div class="section-header fade-up">
+      <h2>Client <span class="gold">Testimonials</span></h2>
+      <p>What our clients say about their dream homes</p>
+    </div>
+    <div class="testimonial-slider">
+      <div class="slider-container" id="testimonialSlider">
+        <div class="testimonial-card"><i class="fas fa-quote-right"></i><p>"Thar Dream Architects designed our modern villa. The 3D elevation was breathtaking. Highly professional!"</p><h4>- Ahmed Raza</h4><div class="stars">★★★★★</div></div>
+        <div class="testimonial-card"><i class="fas fa-quote-right"></i><p>"Best architectural firm in Hyderabad. They transformed our 2D plan into a masterpiece."</p><h4>- Sana Mirza</h4><div class="stars">★★★★★</div></div>
+        <div class="testimonial-card"><i class="fas fa-quote-right"></i><p>"Affordable pricing and exceptional creativity. Highly recommend for house planning."</p><h4>- Faisal Khan</h4><div class="stars">★★★★★</div></div>
+        <div class="testimonial-card"><i class="fas fa-quote-right"></i><p>"From concept to completion, they understood our vision. The 3D walkthrough was amazing!"</p><h4>- Nida Ali</h4><div class="stars">★★★★★</div></div>
+      </div>
+      <button class="slider-btn prev" id="prevTesti"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-btn next" id="nextTesti"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section section-padding">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="contact-info fade-right">
+        <h3>Visit Our Studio</h3>
+        <div class="address"><i class="fas fa-map-pin"></i><p>Opposite to STP House, Happy Homes Road, Qasimabad, Hyderabad, Sindh, Pakistan</p></div>
+        <div class="contact-detail"><i class="fas fa-phone-alt"></i><p>0335 0284710</p></div>
+        <div class="contact-detail"><i class="fas fa-envelope"></i><p>thardreamarchitects@yahoo.com</p></div>
+        <div class="social-mini">
+          <a href="https://wa.me/923350284710" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:+923350284710"><i class="fas fa-phone"></i></a>
+          <a href="https://www.facebook.com/TharDreamArchitects" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="map-wrapper fade-left">
+        <iframe src="https://maps.google.com/maps?q=Qasimabad+Hyderabad+Sindh+Pakistan&t=&z=15&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0; border-radius: 24px;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand"><h3><i class="fas fa-drafting-compass"></i> Thar Dream Architects</h3><p>Designing Dreams into Reality — Modern architecture & 3D planning.</p></div>
+      <div class="footer-links"><h4>Quick Links</h4><ul><li><a href="#home">Home</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#services">Services</a></li><li><a href="#lead">Get Design</a></li></ul></div>
+      <div class="footer-social"><h4>Connect</h4><div class="social-icons"><a href="https://wa.me/923350284710"><i class="fab fa-whatsapp"></i></a><a href="https://www.facebook.com/TharDreamArchitects"><i class="fab fa-facebook-f"></i></a><a href="tel:+923350284710"><i class="fas fa-phone-alt"></i></a></div></div>
+    </div>
+    <div class="copyright">© 2025 Thar Dream Architects — Elevating architecture in Hyderabad.</div>
+  </div>
+</footer>
+
+<div class="floating-actions">
+  <a href="https://wa.me/923350284710" class="float-btn whatsapp" target="_blank"><i class="fab fa-whatsapp"></i><span>WhatsApp</span></a>
+  <a href="tel:+923350284710" class="float-btn call"><i class="fas fa-phone-alt"></i><span>Call</span></a>
+  <a href="https://www.facebook.com/TharDreamArchitects" class="float-btn facebook" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+</div>
+
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
